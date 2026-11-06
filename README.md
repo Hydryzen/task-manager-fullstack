@@ -2,7 +2,7 @@
 
 A complete Task Management application with a modern dark-mode UI, user authentication, and data visualization.
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Login Screen
 ![Login Screen](./screenshots/login.png)
@@ -10,7 +10,7 @@ A complete Task Management application with a modern dark-mode UI, user authenti
 ### Dashboard & Analytics
 ![Dashboard Screen](./screenshots/dashboard.png)
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 **Frontend:**
 - React (Vite)
@@ -23,14 +23,14 @@ A complete Task Management application with a modern dark-mode UI, user authenti
 - JWT (JSON Web Tokens) for authentication
 - Bcrypt (Password hashing)
 
-## ⚙️ Architecture & Features
+##  Architecture & Features
 - **Monorepo Structure:** Separated into `frontend` and `backend` folders for clean architecture.
 - **MVC Pattern:** Backend logic is separated into Routes, Controllers, and Middlewares.
 - **Security:** Protected API routes using JWT. User passwords are encrypted before being stored in the database.
 - **CRUD Operations:** Users can create, read, update (toggle status), and delete tasks.
 - **Analytics:** A dynamic pie chart showing the ratio of completed vs. pending tasks.
 
-## 🛠️ How to Run Locally
+##  How to Run Locally
 
 ### 1. Database Setup (PostgreSQL)
 - Create a database named `task_manager_db`.
